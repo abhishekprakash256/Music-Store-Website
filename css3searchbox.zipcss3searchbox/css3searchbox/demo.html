@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+	<meta charset=utf-8 /> 
+	<title>CSS3 Search Box Inspired by Apple.com</title> 
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold' rel='stylesheet' type='text/css'/> 
+	<link media="screen" rel="stylesheet" href="demo-style.css" /> 
+<style>
+#demo-wrapper {
+    background:#555555;
+    margin: 80px auto 100px;
+    overflow: hidden;
+    padding: 10px;
+    width: 550px;
+    border-radius: 30px 30px 30px 30px;
+	border: 1px solid #444444;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5), 0 1px 3px rgba(255, 255, 255, 0.2) inset;
+}
+
+/* Dark Search Box */
+
+
+#dark {
+   height: 28px;
+   padding: 40px 160px;
+   background:#555;
+}
+
+#dark #search {
+   
+
+}
+
+#dark #search input[type="text"] {
+    background: url(search-dark.png) no-repeat 10px 6px #444;
+    border: 0 none;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #777;
+    width: 150px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
+
+#dark #search input[type="text"]:focus {
+    width: 200px;
+    }
+
+
+
+
+/* White Search Box */
+
+
+
+#white {
+   height: 28px;
+   padding: 40px 160px;
+}
+
+#white #search {
+
+
+}
+
+#white #search input[type="text"] {
+    background: url(search-white.png) no-repeat 10px 6px #fcfcfc;
+    border: 1px solid #d1d1d1;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #bebebe;
+    width: 150px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
+
+#white #search input[type="text"]:focus {
+    width: 200px;
+    }
+
+
+
+/* Apple-like Search Box */
+
+
+#apple {
+   height: 28px;
+   padding: 40px 160px;
+   background:#555;
+}
+
+#apple #search {
+
+}
+
+#apple #search input[type="text"] {
+    background: url(search-white.png) no-repeat 10px 6px #444;
+    border: 0 none;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #d7d7d7;
+    width:150px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); 
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
+
+#apple #search input[type="text"]:focus {
+    background: url(search-dark.png) no-repeat 10px 6px #fcfcfc;
+    color: #6a6f75;
+    width: 200px;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    }
+
+
+</style>
+</head>
+
+<body>
+
+<header> 
+		<section id="masthead"> 
+ 
+			<div id='logo'> 
+			<a href="http://www.bloggermint.com/" title="Bloggermint" rel="home" name="page-top"><img src='http://cdn.bloggermint.com/wp-content/themes/HTML5/images/logo.png'/></a> 
+			</div> 
+			
+			<nav id='topad'> 
+<script type="text/javascript"><!--
+google_ad_client = "pub-4676076416761636";
+/* 468x60, created 6/1/11 */
+google_ad_slot = "6737226473";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script> 
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js"> 
+</script> 
+			</nav> 
+ 
+	
+			</section><!-- #masthead --> 
+	</header><!-- #header --> 
+ 
+	
+	<h1 class="title"><a href="http://www.bloggermint.com/2011/06/css3-search-box-inspired-by-apple-com" target="_blank">CSS3 Search Box Inspired by Apple.com</a></h1> 
+
+<div id="demo-wrapper">
+
+<div id="dark">
+<form method="get" action="/search" id="search">
+  <input name="q" type="text" size="40" placeholder="Search..." />
+</form>
+</div>
+
+
+<div id="white">
+<form method="get" action="/search" id="search">
+  <input name="q" type="text" size="40" placeholder="Search..." />
+</form>
+</div>
+
+
+<div id="apple">
+<form method="get" action="/search" id="search">
+  <input name="q" type="text" size="40" placeholder="Search..." />
+</form>
+</div>
+
+</div>
+
+	<div class="tutorial">Go back to the <a href="http://www.bloggermint.com/2011/06/css3-search-box-inspired-by-apple-com">"CSS3 Search Box Inspired by Apple.com"</a> tutorial! <br/>Another cool creation by <a href="http://twitter.com/bloggermint" target="_blank">@bloggermint</a>. <br/><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
+
+</body>
+</html>

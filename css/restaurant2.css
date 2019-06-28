@@ -1,0 +1,37 @@
+header, section, footer, aside, nav, article, figure, figcaption, { display: block; }
+body { background-color: #f9f8f6;
+       background-position: center;
+	   font-family: Georgia, Times ,sans-serif;
+       margin: 0px;}
+#page { width: 940px;
+        margin: 20px auto 20px auto;
+        border: 2px solid #000000;
+        background-color: #ffffff;
+		height: 1700px;}
+.logo { width: 766px;
+       height: 284px; }
+header { width: 940px;
+       height: 330px;
+       border: 2px solid #000000; } 
+nav li { display: inline;
+       margin-right: 20px; 
+	   margin-left: 10px;}
+#navigator { border: 1px solid #000000;
+            width: 940px;
+            height: 40px; }	
+.color { color: red; }
+
+footer { width: 940px;
+       height: 40px;
+       border: 1px solid #000000; }
+section { width: 940px;
+        border: 1px solid #000000; 
+		margin-right: auto;
+		margin-bottom: auto;}
+.contact-details { color: red;}
+section  { width:600px;
+      height: 1000px;
+      border: 1px solid #000000; }  
+aside {  border: 1px solid #000000;
+	   width: 400px;
+        height: 400px;} 	   

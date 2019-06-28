@@ -1,0 +1,63 @@
+header, section, footer, aside, nav, article, figure, figcaption, { display: block; }
+.wrap{
+
+width:80%;
+
+height:100%;
+margin:auto;
+background-color: #f9f8f6;
+border: 2px solid #000000;
+}
+.logo{
+width: 60%;
+margin: auto;
+padding-left: 20%;
+}
+
+header{
+border: 2px solid #000000;
+}
+.color { color: red; }
+
+#navigator{
+border: 1px solid #000000;
+}
+
+nav li { display: inline;
+       margin-right: 20px; 
+	   margin-left: 10px;}
+
+.main{
+float:left;
+width:75%;
+border: 1px solid #000000;
+}
+aside{ padding-top: 180px;
+
+}
+
+
+
+footer{
+padding-left: 30%;
+padding-top:0.875%;
+allign:center;
+clear:both;
+}
+
+ul a{
+text-decoration:none;
+color: lightGreen;
+
+}
+li {
+padding-bottom:7px;
+
+}
+
+ul a:hover {
+
+text-decoration:underline;
+color:red; 
+font-size:20px;
+}

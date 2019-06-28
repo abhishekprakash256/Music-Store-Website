@@ -1,0 +1,46 @@
+body { background-color: #efefef;
+      text-align: center;
+      
+	  margin: 20px; }
+.logo { width: 430px;
+       height: 147px; }  
+.inbox { width: 200px;
+        height: 200px;
+		margin: 20px 50px 20px 20px;}
+.keep { width: 200px;
+        height: 200px;
+		margin: 20px 20px 20px 20px;}
+.playmusic { width: 200px;
+            height: 200px;	
+			margin: 20px 20px 20px 50px;}
+.maps{ width: 200px;
+       height: 200px;
+	   margin: 20px 50px 20px 20px;}
+.messenger{ width: 200px;
+          height: 200px; 
+	      margin: 20px 20px 20px 20px;}
+.news { width: 200px;
+        height: 200px; 
+		margin: 20px 20px 20px 50px;}
+.camera{ width: 200px;
+        height: 200px; 
+		 margin: 20px 50px 20px 20px;}
+.fit { width: 200px;
+        height: 200px; 
+		margin: 20px 20px 20px 20px;}
+.chrome { width: 200px;
+        height: 200px; 
+		margin: 20px 20px 20px 50px;}
+#box1 { border: 0px solid #000000;
+       width: 900px;
+       height: 280px; 
+	   margin: 5px auto 10px auto; 
+       padding: 10px;}
+#box2 { border: 0px solid #000000;
+       width: 900px;
+       height: 280px; 
+	   margin: 5px auto 10px auto;}
+#box3 { border: 0px solid #000000;
+        width: 900px;
+        height: 280px;
+        margin: 5px auto 10px auto; }		

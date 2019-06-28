@@ -1,0 +1,11 @@
+p.one { 
+  border-color: #0088dd;}
+p.one { border-style: solid; } 
+p.one { border-width: 1px 4px 12px 4px;}   
+p.two { 
+   border-style: double;}
+p.three { 
+   border-top-style: dashed;
+   border-left-style: solid;
+   border-right-stlye: dotted;
+   border-bottom-style: ridge; }

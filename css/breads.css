@@ -1,0 +1,9 @@
+body { font-family: sans-serif; padding: 20px}
+h1 { color: rgb(146,140,217); background-color: rgb(255,255,255); text-shadow: 2px 2px 3px #666666; padding-bottoom: 30px; margin: 10px; }
+h3 { color: #0088dd; text-transform: uppercase; letter-spacing: 0.2em; font-size: 90%; margin: 10px; }
+h2 { color: rgb(146,140,217); }
+.one { color: rgb(225,128,192);}
+.one:first-letter { font-size: 200%;}
+.one:first-line { font-weight: bold; } 
+.two { text-align: justify}
+.three { text-align: right; } 

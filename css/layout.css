@@ -1,0 +1,15 @@
+body { width: 960px;
+       margin: 0 auto; }
+ #content { overflow: auto;
+            height: 100%; }
+ #nav, #feature, #footer { background-color: #efefef;
+                           padding: 10px;
+                           margin: 10px; }
+ .column1, .column2, .column3 { background-color: #efefef ;
+                                width:300px; 
+	                            float: left;
+								margin: 10px; }
+  li { display: inline;
+     padding: 5px; } 
+h1 { margin-left: 500px; } 
+p { margin-left: 30px ; }    

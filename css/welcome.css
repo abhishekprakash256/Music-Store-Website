@@ -1,0 +1,114 @@
+header { border: 1px solid #D5D5D5;
+         height: 90px;
+		 background-color: #D5D5D5;
+		-moz-box-shadow: 0 0 10px #777777;   -webkit-box-shadow: 0 0 10px #777777;  box-shadow: 0 0 10px #777777;
+		width: 1325px;}  
+.logo { height: 80px; 
+        width: 90px; 
+		margin-left: 70px;
+		margin-top: -84px;
+		float: left;}
+h2 { margin-left: 180px;
+    color:}
+#musicstore { margin-top:25px; 
+             font-size: 200%;
+			 letter-spacing: 0.02em;}	
+nav { border: 1px solid #D5D5D5;
+     height: 45px; 
+	 text-align: center;
+	 padding-left: 600px;
+	 background-color: #efefef;
+	 -moz-box-shadow: 0 0 10px #777777;   -webkit-box-shadow: 0 0 10px #777777;  box-shadow: 0 0 10px #777777;
+	 width: 726px;}
+nav li { display: inline; 
+       margin-right: 20px; 
+	   margin-left: 10px;}
+.navigator { text-decoration: none;} 
+#search { float: right; 
+         margin-top:-65px;
+         margin-right: 135px;}
+section { background-image: url("../Images/music.jpg"); 
+	   border-top: 1px solid #000000;
+	    background-repeat: no-repeat;
+	   background-size: 1327px 800px;
+	   width: 1328px;
+	   text-align: center;
+    background-color: black; 
+	height: 880px;}
+h1 { color: white; 
+    font-size:300%;
+	margin-top: 300px;
+	height:100px;}	
+#shopmusic { margin-bottom: 100px;
+            color: white;
+            text-decoration: none;}
+.shop { color: white;
+        text-decoration: none; }
+footer { border: 1px solid #D5D5D5;
+       height: 30px; 
+	   background-color: #D5D5D5;
+	   padding-top:15px;
+	   text-align: left;
+	   padding-left: 20px;
+	   width:1306px;}
+form { width: 500px; 
+    margin: 0 auto; }
+#search { float: left;
+         margin-left: 750px;}
+
+
+#search input[type="text"] {
+    background: url(../Images/search-white.png) no-repeat 10px 6px #444;
+    border: 0 none;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #d7d7d7;
+    width:200px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); 
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;}
+
+#search input[type="text"]:focus {
+    background: url(../Images/search-dark.png) no-repeat 10px 6px #fcfcfc;
+    color: #6a6f75;
+    width: 300px;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);}
+ul a:hover { text-decoration: none;
+           color:#0000CB;}
+.cart{ width: 80px;
+         height: 80px;
+         float: right; 
+		 margin-top: -85px;
+		 margin-right: 20px;}
+body { padding: auto; }
+
+.face { float: right;
+        width: 25px;
+		margin-top: -5px;
+		margin-right: 25px;
+		height: 25px}
+.tumblr { float: right;
+        width: 25px;
+		margin-top: -5px;
+		margin-right: 20px;
+		height: 25px;}
+.sho a:hover{color:#C8C8C8 ; }
+/*B&W*/		
+.bwpic { -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+     -o-transition: all 1s ease;
+     -ms-tansition: all 1s ease;
+       transition: all 1s ease; }
+.bwpic:hover { -webkit-filter: grayscale(100%); }			
+

@@ -1,0 +1,166 @@
+body {
+    font: 12px/1.2 Arial,Helvetica,san-serif;
+    margin: 0;
+}
+
+a:link, 
+a:visited {
+text-decoration:none; 
+color:#416CE5; 
+}
+
+h2 {
+font-size:13px; 
+margin:15px 0 0 0;
+}
+
+header { 
+    background: #36281B;
+    box-shadow: 0 -15px 15px rgba(0,0,0,0.2)inset;
+    clear: both;
+    height: 90px;
+    min-width: 1000px;
+    width: 100%;
+	border-bottom:5px solid #6e6151;
+ }
+
+ /* =Header
+-------------------------------------------------------------- */
+#header {
+    clear: both;
+    width: 100%
+    }
+
+section#masthead {
+    margin: 0 auto;
+    width: 1000px
+    }
+
+#site-title {
+    float: left;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 0 18px 0;
+    width: 700px
+    }
+
+#site-title a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none
+    }
+
+#site-description {
+    clear: right;
+    float: right;
+    font-style: italic;
+    margin: 14px 0 18px 0;
+    width: 220px
+    }
+
+#branding {
+    float: left;
+    width: 300px
+    }
+
+/* =Logo
+-------------------------------------------------------------- */
+#logo {
+    float: left;
+    height: 90px;
+    margin: 0 15px 0 0;
+    width: 350px;
+    background: url(images/bg-glow.png) no-repeat scroll 0 0 transparent
+    }
+
+#logo img {
+    border: 0 none;
+    position: relative;
+    top: 10px;
+    z-index: 200
+    }
+
+/* =Top Ad
+-------------------------------------------------------------- */
+#topad {
+    float: left;
+    height: 40px;
+    margin: 15px 15px 0 135px;
+    width: 320px;
+    }
+
+/* =Search Box
+-------------------------------------------------------------- */
+#searchb {
+    float: left;
+    margin: 30px 0
+    }
+
+#searchb input[type="text"], #searchb textarea {
+    background: none repeat scroll 0 0 #F9F9F9;
+    border: 0 none;
+    float: left;
+    height: 20px;
+    padding: 5px 10px;
+    width: 170px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 0 2px 2px #000, 0 3px 10px rgba(0, 0, 0, 0.4) inset;
+    -moz-box-shadow: 0 2px 2px #000, 0 3px 10px rgba(0, 0, 0, 0.4) inset;
+    box-shadow: 0 2px 2px #000, 0 3px 10px rgba(0, 0, 0, 0.4) inset;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 15px
+    }
+
+#searchb .go {
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 0 2px 2px #000, 0 -2px 10px rgba(0, 0, 0, 0.5) inset;
+    -moz-box-shadow: 0 2px 2px #000, 0 -2px 10px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 0 2px 2px #000, 0 -2px 10px rgba(0, 0, 0, 0.5) inset;
+    background: #82AD32;
+    border: 0 none;
+    font-size: 15px;
+    font-weight: bold;
+    height: 30px;
+    margin: 0 10px;
+    padding-bottom: 3px;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.35);
+    width: 60px;
+    cursor: pointer
+    }
+	
+/* =Demo CSS
+-------------------------------------------------------------- */
+	
+h1.title {
+    margin: 50px 0;
+    text-align: center;
+    width: 100%;
+}
+	
+h1.title a {
+    color: #555555;
+    font-family: Georgia,Serif;
+    font-size: 22pt;
+    font-style: italic;
+    text-decoration: none;
+}
+
+h1.title a:hover {
+    color: #333;
+}
+
+.tutorial {
+	position:fixed;
+	width:100%;
+	text-align:center;
+    font-size: 15px;
+    bottom: 0;
+    padding: 10px;
+	font-family: 'Droid Sans', Arial, Sans-serif;
+	background: #C6DFA2;
+    border-top: 1px solid #B2C891;
+}
