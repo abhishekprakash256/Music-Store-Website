@@ -4,12 +4,28 @@ The project is made for the illustration purpose to show case the design of a mu
 
 ### Pages - 
 
-- Welcome Page 
+### Welcome Page 
 
 ![](screenshot/welcome.png)
 
-- Store Page
+### Store Page 
 
 ![](screenshot/store.png)
 
-- 
+### Song Page
+
+![](screenshot/song_1.png)
+
+![](screenshot/song_2.png)
+
+### Artist Page
+
+![](screenshot/artist.png)
+
+### Album Page
+
+![](screenshot/album.png)
+
+![](screenshot/album_2.png)
+
+![](screenshot/album_3.png)
